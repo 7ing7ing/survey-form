@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #C8E3D4;
+}
+
+#title, #description {
+  text-align: center
+}
+#survey-form {
+  background-color: #F6EABE;
+  padding: 10%;
+  border-radius: 5px;
+}
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+textarea {
+  width: 100%;
+}
+
+#name {
+  width: 100%;
+  margin-top: 5px;
+}
+#email {
+  width: 100%;
+  margin-top: 5px;
+}
+#number {
+  width: 100%;
+  margin-top: 5px;
+}
+#dropdown {
+  width: 100%;
+  
+}
+
+div {
+  margin-top: 10px;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background: #C8E3D4;
+}

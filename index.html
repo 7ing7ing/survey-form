@@ -1,0 +1,85 @@
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <title>Survey Form</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Programming survey form</h1>
+      <p id="description">Thank you for taking the time to give us feedback</p>
+    </header>
+    <form id="survey-form" action="">
+      <div>
+        <label id="name-label" for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+      <div>
+        <label id="email-label" for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div>
+        <label id="number-label" for="number">Age:</label><br>
+        <input type="number" id="number" min="0" max="120" placeholder="Your age">
+      </div>
+      <div>
+        <p>Why are you learning programming?</p>
+        <select name="" id="dropdown">
+          <option disabled selected value></option>
+          <option value="student">I'm a student and this is the path I want to follow</option>
+          <option value="knowdlege">I'm refreshing my knowledge</option>
+          <option value="change">Change of career</option>
+          <option value="curious">I'm curious and learning something new as hobby</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+        <p>How are you learning to code?</p>
+        <label for="">
+          <input value="self-taught" name="learning-method" type="radio">I'm self-taught</input><br>
+        </label>
+        <label for="">
+          <input value="instructor" name="learning-method" type="radio">I have an in-person instructor</input>
+        </label>
+      </div>
+    <div>
+        <p>Which of this resources do you use to help you learning?</p>
+        <label for="">
+        <input name="resources" type="checkbox" value="stackoverflow">Stackoverflow</input><br>
+        </label>
+        <label for="">
+        <input name="resources" type="checkbox" value="mozillamdn">Mozilla MDN</input><br>
+        </label>
+        <label for="">
+        <input name="resources" type="checkbox" value="w3schools">W3Schools</input><br>
+        </label>
+        <label for="">
+        <input name="resources" type="checkbox" value="youtube">Youtube</input><br>
+        </label>
+        <label for="">
+        <input name="resources" type="checkbox" value="reddit">Reddit</input><br>
+        </label>
+        <label for="">
+        <input name="resources" type="checkbox" value="other">Other</input><br>
+        </label>
+    </div>
+     <div>
+       <p>Any comments or sugestions?</p>
+       <textarea name="" id="" cols="" rows=""></textarea>
+
+    </div>
+    <div>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+    </form>
+   
+    
+  </div>
+  
+</body>
+</html>
